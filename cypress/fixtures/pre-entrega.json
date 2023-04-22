@@ -1,0 +1,16 @@
+{
+    "login": {
+        "user":"pushingit",
+        "password":"123456!"
+    },
+    "Products": {
+        "Product1": {
+            "nameProduct1": "White Shoes",
+            "priceProduct1": 30
+        },
+        "Product2":{
+            "nameProduct2": "Black T-Shirt",
+            "priceProduct2": 15
+        }      
+    }
+}
