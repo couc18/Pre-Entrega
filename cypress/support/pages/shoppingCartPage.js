@@ -3,6 +3,7 @@ export class ShoppingCartPage {
     constructor(){
         this.totalPrice = "Show total price"
         this.finalPrice = 'p[id="price"]'
+        this.checkOut = '//div[@class="css-641vkz"]//child::button'
     }
 
     validateName(product){
@@ -19,5 +20,10 @@ export class ShoppingCartPage {
 
     validateFinalPrice(){
        return cy.get(this.finalPrice)
+    }
+
+    checkout(){
+        cy.xpath(this.checkOut).click()
+        
     }
 }

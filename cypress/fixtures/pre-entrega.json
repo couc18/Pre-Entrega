@@ -12,5 +12,11 @@
             "nameProduct2": "Black T-Shirt",
             "priceProduct2": 15
         }      
+    
+    },
+    "checkout":{
+        "firstName": "Carlos",
+        "lastName":"Urbina", 
+        "cardNumber":"0123456789256735"
     }
 }
